@@ -33,7 +33,7 @@ def create_routes(hostname):
 
 
 def main():
-    get_hostname()
+    hostname = get_hostname()
     create_routes(hostname)
 
 
